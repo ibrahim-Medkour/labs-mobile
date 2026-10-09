@@ -1,0 +1,23 @@
+## Sujets à traiter au lab
+
+1. Qu’est-ce qu’un lab ?
+2. Markdown
+3. GitHub Pages
+4. Antigravity
+5. Marp
+6. OpenCode
+7. Pandoc
+8. OmniRoute
+9. 2TUP
+10. Design Thinking
+11. git
+12. github Issues
+13. github Actions
+14. MCP
+15. Scrum
+16. UX Design
+17. Figma
+18. 
+
+
+   
