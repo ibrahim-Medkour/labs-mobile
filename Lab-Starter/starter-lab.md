@@ -140,9 +140,9 @@ style: |
 # Development<br>Environment
 
 <div class="by">
-  <strong>Mohammed Yassir Mesbahi</strong>
-
-encadre:essarraj-fouad 
+  <strong>Etudiant : Ibrahim Medkour</strong>
+  <strong>Prof : ESSARRAJ FOUAD</strong>
+  Development Environment Lab
 </div>
 
 ---
@@ -153,50 +153,69 @@ encadre:essarraj-fouad
 
 1. Problems encountered during the lab
 2. Showing hidden files and folders
-3. Making `README.md` visible
-4. Using Todo Highlight for code reminders
-5. Installing and using Live Server
-6. Configuring Marp Markdown Preview
-7. Meaning of IDE and why we use it
-<!-- TODO:delete the marp -->
+3. IDE & Extension Configuration
+
+
 ---
 
 ## Problems Encountered
 
 - Hidden files and folders, such as `.git`, were not visible in the file explorer.
-- The `README.md` file was not displayed as expected.
+- The `README.md` file extention `.md` not displayed as expected.
 - We sometimes forgot which lines of code needed to be modified.
-- Marp presentation files did not open in the expected preview.
 
 ---
 
 <!-- _class: light -->
 
-## Solutions Implemented
+## Configure a VS Code Extension
+
+### Solutions Implemented
 
 ### 01 — Show hidden files
 
 Enabled the relevant file-explorer setting so hidden files and folders, including `.git`, could be seen.
 
-### 02 — Display README.md
+### 02 — Display .md extention
 
-Adjusted the relevant VS Code option/extension setting so `README.md` appeared in the explorer.
+Adjusted the relevant VS Code option/extension setting so `.md` appeared in the explorer.
 
 ### 03 — Remember code changes
 
-Installed **Todo Highlight** to highlight important comments and reminders in the code.
+Installed **Todo Lens** to highlight important comments and reminders in the code.
 
 ---
-<!-- TODO: -->
+
+## 3. What Is an IDE?
+
+An **IDE** (Integrated Development Environment) brings the tools for building software together in one workspace.
+
+- **Editor:** write and organize code
+- **Terminal:** run commands without leaving the workspace
+- **Debugger:** find and fix problems
+- **Extensions:** add tools for a language or task
+
+<p class="small">Visual Studio Code is a code editor that becomes an IDE-like workspace through its built-in tools and extensions.</p>
+
+---
+
 <!-- _class: light -->
 
-## Solutions Implemented
+## Configure a VS Code Extension
 
-### 04 — Preview web pages
+1. Open **Extensions** with <code>Ctrl + Shift + X</code>.
+2. Search for the extension you need and check its publisher and description.
+3. Select **Install**, then follow any setup instructions.
+4. Open the extension's page or **Settings** to adjust its options.
+5. Choose **User** settings for your account or **Workspace** settings for this project.
 
-Installed **Live Server** to launch a local development server and automatically refresh web pages after changes.
+<p class="small">Example: install Live Server, then use its extension page/settings to choose how it launches your local web page.</p>
 
-### 05 — Preview Marp slides
+---
 
-Installed/configured the **Marp extension** so Markdown presentation files could be viewed in slide preview.
-## 05- Meaning of IDE and why we use it
+## Keep Extensions Useful
+
+- Install only extensions that support your work.
+- Review an extension's settings after installing it.
+- Disable or uninstall extensions you no longer use.
+- Share project-specific settings with teammates when they improve consistency.
