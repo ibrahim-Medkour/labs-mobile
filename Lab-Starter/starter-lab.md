@@ -158,7 +158,7 @@ encadre:essarraj-fouad
 5. Installing and using Live Server
 6. Configuring Marp Markdown Preview
 7. Meaning of IDE and why we use it
-
+<!-- TODO:delete the marp -->
 ---
 
 ## Problems Encountered
