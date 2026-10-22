@@ -1,4 +1,4 @@
-## Sujets à traiter au lab
+# Sujets à traiter au lab
 
 1. Qu’est-ce qu’un lab ?
 2. Markdown
@@ -10,14 +10,7 @@
 8. OmniRoute
 9. 2TUP
 10. Design Thinking
-11. git
-12. github Issues
-13. github Actions
-14. MCP
-15. Scrum
-16. UX Design
-17. Figma
-18. 
-
-
-   
+11. Issues (github)
+12. Scrum
+13. git et github
+14. starter
