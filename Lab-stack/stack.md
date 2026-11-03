@@ -132,7 +132,7 @@ style: |
 
 **Réalisé par :** Brahim Medkour
 
-**Encadrant :** [Nom de l'encadrant]
+**Encadrant :** ES-Saraj Fouad
 
 **Centre :** Solicode Tanger
 
