@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: m
+theme: movie
 paginate: true
 ---
 
