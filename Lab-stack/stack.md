@@ -123,6 +123,7 @@ style: |
 
 <!-- _class: cover -->
 <!-- _paginate: false -->
+![OFPPT](images/logo-ofppt.png) ![Solicode](images/logo-solicode.png)
 
 # MOVIE STREAMING PLATFORM
 
