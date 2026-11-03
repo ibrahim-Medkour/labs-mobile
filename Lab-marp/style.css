@@ -1,0 +1,105 @@
+
+/* @theme movie */
+
+@import "default";
+
+/* GENERAL STYLE */
+
+section {
+    font-family: Arial, sans-serif;
+    background: #F8FAFC;
+    color: #1E293B;
+    padding: 55px;
+    font-size: 23px;
+}
+
+h1 {
+    color: #2563EB;
+    font-size: 38px;
+}
+
+h2 {
+    color: #1D4ED8;
+}
+
+strong {
+    color: #2563EB;
+}
+
+/* COVER */
+
+section.cover {
+    background: #0F172A;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+section.cover h1 {
+    color: #60A5FA;
+    font-size: 44px;
+}
+
+section.cover h3 {
+    color: white;
+}
+
+section.cover strong {
+    color: #60A5FA;
+}
+
+/* LIGHT SLIDE */
+
+section.light {
+    background: #F1F5F9;
+    color: #1E293B;
+}
+
+/* DARK SLIDE */
+
+section.dark {
+    background: #111827;
+    color: white;
+}
+
+section.dark h1,
+section.dark h2 {
+    color: #60A5FA;
+}
+
+/* BLUE SLIDE */
+
+section.blue {
+    background: #1D4ED8;
+    color: white;
+}
+
+section.blue h1,
+section.blue h2 {
+    color: white;
+}
+
+/* LISTS */
+
+section ol,
+section ul {
+    line-height: 1.5;
+}
+
+section li {
+    margin-bottom: 10px;
+    padding: 0;
+    background: none;
+    border: none;
+}
+
+section li::marker {
+    color: #2563EB;
+    font-weight: bold;
+}
+
+/* IMAGES */
+
+section img {
+    object-fit: contain;
+}
