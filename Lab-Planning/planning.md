@@ -60,6 +60,8 @@ style: |
 
 <!-- _class: title -->
 
+![OFPPT](images/logo-ofppt.png) ![Solicode](images/logo-solicode.png)
+
 # LAB PLANNING
 
 ## Préparer et présenter un Lab technique
@@ -68,11 +70,10 @@ style: |
 
 **Réalisé par :** Medkour Ibrahim
 
-**Encadré par :** Nom de l'encadrant
+**Encadré par :** ES-Saraj Fouad
 
 **Centre :** SoliCode Tanger
 
-**Institution :** OFPPT
 
 ---
 
