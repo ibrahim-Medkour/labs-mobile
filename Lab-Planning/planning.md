@@ -3,268 +3,180 @@ marp: true
 theme: default
 size: 16:9
 paginate: true
-header: "LAB PLANNING"
-footer: "Présentation d'un Lab Technique"
+
 style: |
   section {
-    font-family: Arial, sans-serif;
-    background: #ffffff;
+    background: #FFFFFF;
     color: #333333;
-    padding: 45px;
+    font-family: Arial, sans-serif;
+    padding: 50px 65px;
     font-size: 23px;
   }
 
   h1 {
-    color: #1565C0;
+    color: #1D4ED8;
     font-size: 38px;
-    text-align: center;
+    font-weight: 700;
   }
 
   h2 {
-    color: #1565C0;
-    font-size: 31px;
-    border-bottom: 2px solid #1565C0;
-    padding-bottom: 8px;
+    color: #2563EB;
+    font-size: 27px;
   }
 
   h3 {
-    color: #1565C0;
-  }
-
-  table {
-    width: 100%;
-    font-size: 18px;
-    border-collapse: collapse;
-  }
-
-  th {
-    background: #1565C0;
-    color: white;
-    padding: 10px;
-  }
-
-  td {
-    padding: 9px;
-    border: 1px solid #cccccc;
-  }
-
-  li {
-    margin-bottom: 10px;
+    color: #1E40AF;
   }
 
   strong {
-    color: #1565C0;
+    color: #1D4ED8;
   }
 
-  .cover {
+  section.title {
     text-align: center;
+    justify-content: center;
+    background: #FFFFFF;
   }
 
-  .cover h1 {
+  section.title h1 {
+    color: #1D4ED8;
     font-size: 48px;
-    margin-top: 60px;
   }
 
-  .subtitle {
-    color: #666666;
-    font-size: 25px;
+  section.title h2 {
+    color: #334155;
+    font-size: 28px;
   }
 
-  .info {
-    margin-top: 50px;
-    font-size: 21px;
+  section.title p {
+    color: #475569;
   }
 
-  .small {
-    font-size: 17px;
+  section::after {
+    color: #64748B;
+    font-size: 14px;
   }
 ---
 
-<!-- _class: cover -->
-
-![width:150px](images/logo-ofppt.png)
-![width:150px](images/logo-solicode.png)
+<!-- _class: title -->
 
 # LAB PLANNING
 
 ## Préparer et présenter un Lab technique
 
-<p class="subtitle">Un plan simple pour organiser tous les Labs</p>
+### Plan générique de présentation des Labs
 
-<div class="info">
-
-**Réalisé par :** Nom et prénom
+**Réalisé par :** Medkour Ibrahim
 
 **Encadré par :** Nom de l'encadrant
 
-**Centre :** Nom du centre
+**Centre :** SoliCode Tanger
 
-**Projet :** Projet technique
-
-</div>
-
-<!-- Note: Bonjour. Aujourd'hui, je vais présenter le Lab Planning. Ce Lab explique comment préparer et présenter un Lab technique. -->
+**Institution :** OFPPT
 
 ---
 
-## 1. Plan de la présentation
+# Plan de la présentation
 
-1. Présentation du Lab Planning
-2. Stack technique
-3. Définitions importantes
-4. Problème et besoin
-5. Solution proposée
-6. Application pratique
-7. Résultats et conclusion
+1. **Page de garde** — Présentation du Lab.
+2. **Plan** — Les parties de la présentation.
+3. **Stack technique** — Technologies et outils utilisés.
+4. **Définitions** — Mots et notions importantes.
+5. **Problème et besoin** — Problème à résoudre et utilité du Lab.
+6. **Solution et pratique** — Étapes de travail, exemples et tests.
+7. **Résultats et conclusion** — Résultat final et compétences acquises.
 
-<!-- Note: Voici les parties de ma présentation. Je vais expliquer le problème, la solution et le travail pratique. -->
 
 ---
 
-## 2. Stack technique
+# Stack technique
 
-Les outils utilisés pour préparer et présenter ce Lab :
+Les technologies et les outils utilisés :
 
 | Technologie / Outil | Rôle |
 |---|---|
-| Markdown | Écrire et organiser le document |
-| Marp | Transformer Markdown en présentation |
-| Visual Studio Code | Écrire et modifier le fichier |
-| Git | Suivre les modifications |
-| GitHub | Déposer et partager le travail |
+| **PHP** | Développement Backend |
+| **Markdown** | Rédaction du contenu |
+| **Marp** | Création des présentations |
+| **VS Code** | Édition du code et des fichiers |
+| **Git** | Gestion des versions |
+| **GitHub** | Hébergement et partage du projet |
 
-### Pourquoi utiliser ces outils ?
+### Objectif
 
-- Markdown permet d'écrire facilement.
-- Marp crée les diapositives.
-- VS Code permet de modifier le document.
-- Git permet de suivre les changements.
-- GitHub permet de sauvegarder le projet.
-
-<!-- Note: Pour ce Lab, j'utilise Markdown, Marp, VS Code, Git et GitHub. Chaque outil a un rôle différent. -->
+Présenter les outils utilisés et comprendre le rôle de chaque technologie.
 
 ---
 
-## 3. Définitions importantes
+# 4. Définitions
 
-| Terme | Définition simple |
-|---|---|
-| Lab technique | Travail pratique sur un sujet technique |
-| Lab Planning | Lab pour apprendre à organiser un Lab |
-| Plan générique | Structure commune pour présenter les Labs |
-| Stack technique | Technologies et outils utilisés |
-| Fil rouge métier | Sujet ou projet qui donne un contexte aux exercices |
-| Livrable unique | Résultat final demandé à la fin du travail |
+- **Lab :** Activité pratique pour apprendre et appliquer des connaissances.
 
-### Exemple
+- **Plan générique :** Structure commune pour organiser et présenter les Labs.
 
-Un Lab sur JavaScript peut utiliser :
+- **Stack technique :** Ensemble des technologies et des outils utilisés dans un Lab.
 
-- JavaScript : pour programmer.
-- HTML : pour créer la page.
-- VS Code : pour écrire le code.
-
-<!-- Note: Un Lab technique est un travail pratique. Le Lab Planning nous apprend à organiser ce travail avec un plan commun. -->
+- **Template :** Modèle réutilisable pour préparer les présentations.
 
 ---
 
-## 4. Problème et besoin
+# 5. Problème et besoin
 
-### Le problème
+## Problème
 
-Chaque Lab possède un sujet différent.
+- Chaque Lab peut avoir une présentation différente.
+- Certaines informations importantes peuvent être oubliées.
+- La préparation peut prendre beaucoup de temps.
 
-Sans organisation :
+## Besoin
 
-- Les présentations peuvent être désorganisées.
-- Certaines informations peuvent être oubliées.
-- Il est difficile de comprendre le travail réalisé.
+- Utiliser une structure commune pour tous les Labs.
+- Organiser les informations clairement.
+- Faciliter la préparation des présentations.
 
-### Le besoin
+## Pourquoi ce Lab est utile ?
 
-Nous avons besoin d'un plan simple et commun pour :
+Il permet de préparer les Labs avec une méthode simple et organisée.
 
-- Organiser les informations.
-- Présenter le travail clairement.
-- Faciliter la compréhension.
-- Garder la même structure pour les Labs.
-
-<!-- Note: Le problème est le manque d'organisation. Le besoin est de créer une structure simple pour présenter tous les Labs. -->
 
 ---
 
-## 5. Solution proposée : Plan générique
+# 6. Solution et pratique
+## Étapes du travail
+1. Identifier les parties nécessaires.
+2. Organiser les parties dans un ordre logique.
+3. Définir le contenu de chaque partie.
+4. Créer le plan générique de 7 slides.
+5. Appliquer le plan à un exemple.
+## Exemple pratique : Lab PHP
+- Slide 1 : Page de garde.
+- Slide 2 : Plan.
+- Slide 3 : Stack PHP.
+- Slide 4 : Définitions PHP.
+- Slide 5 : Problème et besoin.
+- Slide 6 : Code et tests.
+- Slide 7 : Résultats et conclusion.
 
-Nous proposons un plan de 7 diapositives.
+## Vérification
 
-| Slide | Partie | Contenu |
-|---|---|---|
-| 1 | Page de garde | Titre et informations |
-| 2 | Plan | Parties du Lab |
-| 3 | Stack technique | Technologies et outils |
-| 4 | Définitions | Notions importantes |
-| 5 | Problème et besoin | Problème et objectif |
-| 6 | Solution et pratique | Étapes, exemples et tests |
-| 7 | Résultats et conclusion | Résultat et apprentissage |
-
-### Avantage
-
-Ce plan reste le même, mais le contenu change selon le sujet du Lab.
-
-<!-- Note: La solution est un plan de sept diapositives. Nous gardons la structure et nous changeons le contenu selon le sujet. -->
-
----
-
-## 6. Application pratique du plan
-
-### Exemple : Lab Markdown
-
-Nous appliquons le plan générique à un Lab sur Markdown.
-
-| Partie | Exemple de contenu |
-|---|---|
-| Page de garde | Lab Markdown |
-| Plan | Présentation, syntaxe et pratique |
-| Stack technique | Markdown, VS Code, GitHub |
-| Définitions | Markdown, titre, liste, tableau |
-| Problème et besoin | Organiser un document |
-| Solution et pratique | Créer un fichier `.md` |
-| Résultats et conclusion | Document Markdown terminé |
-
-### Étapes de réalisation
-
-1. Créer un fichier `presentation.md`.
-2. Ajouter le plan des 7 diapositives.
-3. Ajouter les informations du Lab.
-4. Préparer la présentation avec Marp.
-5. Vérifier le résultat.
-6. Déposer le fichier sur GitHub.
-
-<!-- Note: Pour comprendre le plan, je prends un exemple : Lab Markdown. J'utilise les sept parties pour organiser le contenu de ce Lab. -->
+Appliquer le même plan à un autre Lab pour vérifier qu'il est réutilisable.
 
 ---
 
-## 7. Résultats et conclusion
+# 7. Résultats et conclusion
 
-### Résultats obtenus
+### Résultats
 
-- Un plan générique de 7 diapositives.
-- Une structure commune pour les Labs.
-- Une méthode simple pour organiser une présentation.
-- Un exemple pratique avec le Lab Markdown.
+- Création d'un plan générique de 7 parties.
+- Organisation claire des informations.
+- Création d'une structure réutilisable pour les Labs.
 
 ### Ce que j'ai appris
 
-- Organiser un Lab technique.
-- Présenter les informations clairement.
-- Identifier les technologies utilisées.
-- Expliquer les notions importantes.
-- Préparer un document Markdown avec Marp.
+- Organiser un Lab.
+- Présenter les informations dans un ordre logique.
+- Comprendre le rôle de chaque partie.
 
 ### Conclusion
 
-Le Lab Planning permet de préparer des présentations claires et bien organisées.
-
-**Merci pour votre attention !**
-
-<!-- Note: Pour conclure, ce Lab m'a appris à organiser et présenter un travail technique avec une structure simple et claire. Merci pour votre attention. -->
+Ce Lab m'a permis de comprendre comment préparer et présenter un Lab de manière claire et organisée.
