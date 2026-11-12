@@ -239,8 +239,8 @@ section.compact pre {
 
 <!-- _class: cover -->
 <div class="logos">
-  <img src="images/logo-OFPPT.jpg" alt="OFPPT Logo">
-  <img src="images/solicodeLogo.jpg" alt="Solicode Logo">
+  <img src="images/logo-ofppt.png" alt="OFPPT Logo">
+  <img src="images/logo-solicode.png" alt="Solicode Logo">
 </div>
 
 # Development Environment

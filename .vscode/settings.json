@@ -1,5 +1,54 @@
 {
     "markdown.marp.themes": [
         "./Lab-marp/style.css"
+    ],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.jj": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "Lab-Lab": true,
+        "Lab-Laravel": true,
+        "lab-Markdown": true,
+        "Lab-marp": true,
+        "Lab-Planning": true,
+        "lab-Prompt": true,
+        "Lab-Scrum": true,
+        "Lab-stack": true,
+        "Lab-Starter": true,
+        "Lab-Veille": true,
+        "Lab-2TUP": true,
+        "Lab-Antigravity": true,
+        "Lab-Apprentissage": true,
+        "Lab-DesignThinking": true,
+        "lab-Erreur-js": true,
+        "Lab-Git": true,
+        ".vscode": true,
+        "test.md": true,
+        "README.md": true
+    },
+    "hide-files.files": [
+        "Lab-Lab",
+        "Lab-Laravel",
+        "lab-Markdown",
+        "Lab-marp",
+        "Lab-Planning",
+        "lab-Prompt",
+        "Lab-Scrum",
+        "Lab-stack",
+        "Lab-Starter",
+        "Lab-Veille",
+        "Lab-2TUP",
+        "Lab-Antigravity",
+        "Lab-Apprentissage",
+        "Lab-DesignThinking",
+        "lab-Erreur-js",
+        "Lab-Git",
+        ".vscode",
+        "test.md",
+        "README.md"
     ]
+   
 }
