@@ -41,7 +41,7 @@ style: |
 
 ## Gestion des erreurs, namespaces et traits
 
-**Présenté par :** Dghar Mohamed  
+**Présenté par :** Medkour Ibrahim 
 **Encadrant :** ES-SARRAJ Fouad
 
 ---
