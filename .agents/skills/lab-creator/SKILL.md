@@ -26,3 +26,4 @@ Cette skill orchestre la préparation des livrables d'un lab. Pour la mise en fo
 - Ne pas ajouter de diapositive de conclusion ou de remerciements.
 - Ne pas exécuter de commande Git si l'utilisateur l'interdit.
 
+
